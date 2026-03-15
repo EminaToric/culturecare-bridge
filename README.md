@@ -1,6 +1,6 @@
 # 🌉 CultureCare Bridge
 
-An AI-powered cultural health navigation tool that helps people from diverse backgrounds understand any health topic through the lens of their own culture — addressing stigma, navigating the healthcare system, and finding community resources.
+An AI-powered cultural health navigation tool that helps people from diverse backgrounds understand any health topic through the lens of their own culture; ddressing stigma, navigating the healthcare system, and finding community resources.
 
 **Live Demo:** [View App](#) ← replace with your Vercel URL
 
@@ -10,7 +10,7 @@ An AI-powered cultural health navigation tool that helps people from diverse bac
 
 Healthcare systems were not built with every culture in mind. Language barriers, cultural stigmas, unfamiliar systems, and the gap between traditional beliefs and Western medicine create real obstacles for millions of people trying to get good care.
 
-This tool came from a personal place. As someone who navigated the American healthcare system as an immigrant, I know firsthand how disorienting it can be when the system does not speak your language — literally or culturally.
+This tool came from a personal place. As someone who navigated the American healthcare system as an immigrant, I know firsthand how disorienting it can be when the system does not speak your language, literally or culturally.
 
 CultureCare Bridge uses AI to meet people where they are, in the context of their own background, and give them something practical: understanding, language, and a path forward.
 
