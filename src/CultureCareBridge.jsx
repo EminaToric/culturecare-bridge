@@ -544,12 +544,13 @@ export default function CultureCareBridge() {
           "anthropic-dangerous-direct-browser-access": "true",
         },
        body: JSON.stringify({
-  model: "claude-haiku-4-5-20251001",
-  max_tokens: 1000,
-  messages: [
-    { role: "user", content: `${SYSTEM_PROMPT}\n\nCultural background: ${culture}\nHealth topic: ${healthTopic}` }
-  ],
-}),
+          model: "claude-haiku-4-5-20251001",
+          max_tokens: 1000,
+          messages: [
+            { role: "user", content: `${SYSTEM_PROMPT}\n\nCultural background: ${culture}\nHealth topic: ${healthTopic}` }
+          ],
+        }),
+      });
       const data = await res.json();
       const text = data.content?.map(b => b.text || "").join("") || "";
       if (!text) throw new Error("No response");
