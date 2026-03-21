@@ -543,13 +543,13 @@ export default function CultureCareBridge() {
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true",
         },
-        body: JSON.stringify({
-          model: "claude-3-5-sonnet-20241022",
-          max_tokens: 1000,
-          system: SYSTEM_PROMPT,
-          messages: [{ role: "user", content: `Cultural background: ${culture}\nHealth topic: ${healthTopic}` }],
-        }),
-      });
+       body: JSON.stringify({
+  model: "claude-3-5-sonnet-20241022",
+  max_tokens: 1000,
+  messages: [
+    { role: "user", content: `${SYSTEM_PROMPT}\n\nCultural background: ${culture}\nHealth topic: ${healthTopic}` }
+  ],
+}),
       const data = await res.json();
       const text = data.content?.map(b => b.text || "").join("") || "";
       if (!text) throw new Error("No response");
