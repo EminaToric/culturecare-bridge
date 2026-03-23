@@ -2,7 +2,7 @@
 
 An AI-powered cultural health navigation tool that helps people from diverse backgrounds understand any health topic through the lens of their own culture; ddressing stigma, navigating the healthcare system, and finding community resources.
 
-**Live Demo:** (https://culturecare-bridge-jobpuw6p6-eminas-projects-5bdaa24f.vercel.app/)
+**Live Demo:** [View Dashboard](https://culturecare-bridge-jobpuw6p6-eminas-projects-5bdaa24f.vercel.app/)
 
 ---
 
